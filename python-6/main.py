@@ -32,6 +32,8 @@ class Employee:
     def get_hours(self):
         return self.__workload # Returns the employee's workload.
     
+    def get_salary(self):
+        return self.__salary # Returns the employee's salary.
 
 class Manager(Employee):
     """ Manager is an employee subclass, represents a manager of the company.
@@ -47,7 +49,7 @@ class Manager(Employee):
         self.__department = Department('managers', 1) # Defines the employee's department.
     
     def calc_bonus(self):
-        return self.__salary * 0.15 # Returns the manager bonus.
+        return self.get_salary()*0.15 # Returns the manager bonus.
     
     def get_departament(self):
         return self.__department.name # Returns the manager department name.

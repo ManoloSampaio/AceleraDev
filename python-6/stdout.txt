@@ -19,4 +19,4 @@ test_submit.py::TestChalange2::test_calc_bonus_manger PASSED             [ 91%]
 test_submit.py::TestChalange2::test_get_sales_manger PASSED              [100%]
 
 ------ generated xml file: /home/emmanuel/codenation/python-6/output.xml -------
-============================== 12 passed in 0.18s ==============================
+============================== 12 passed in 0.26s ==============================
