@@ -1,2 +1,7 @@
-python-6/.pytest_cache/
+**pytest_cache/
 **.txt
+python-5/.pytest_cache/
+.DS_Store
+**__pycache__
+**.xml
+**.pytest_cache
