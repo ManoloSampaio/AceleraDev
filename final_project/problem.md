@@ -6,7 +6,7 @@ A arquitetura do projeto é formada por:
 1. Criar endpoints para serem usados pelo frontend da aplicação.
 2. Criar um endpoint que será usado para gravar os logs de erro em um banco de dados relacional.
 3. A API deve ser segura, permitindo acesso apenas com um token de autenticação válido.
-## Fronted:
+## Frontend
 1. Criar endpoints para serem usados pelo frontend da aplicação.
 2. Criar um endpoint que será usado para gravar os logs de erro em um banco de dados relacional.
 3. A API deve ser segura, permitindo acesso apenas com um token de autenticação válido.
