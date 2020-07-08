@@ -1,0 +1,10 @@
+types:
+  Auth:
+    type: object
+    discriminator: token
+    properties:
+      token : string
+  Agent:
+    type: object
+    properties:
+        name: string

@@ -1,0 +1,60 @@
+securitySchemes:
+    JWT:
+types:
+  Auth:
+    type: object
+    discriminator: token
+    properties:
+      token : string
+  Agent:
+    type: object 
+  Event:  
+    type: object
+  Group:
+    type: object
+  User:
+    type: object
+/auth/token:
+    post:
+        description: |
+        headers: 
+        body: 
+        responses: 
+/agents:
+    post
+        description: |
+        headers: 
+        body: 
+        responses: 
+    get:
+        description: |
+        headers: 
+        body: 
+        responses: 
+    /{id}:
+
+    /{id}/events:
+/users:
+    post:
+        description: |
+        headers: 
+        body: 
+        responses: 
+    get:
+        description: |
+        headers: 
+        body: 
+        responses: 
+    /{id}:
+/groups:
+    post:
+        description: |
+        headers: 
+        body: 
+        responses: 
+    get:
+        description: |
+        headers: 
+        body: 
+        responses: 
+    /{id}:
